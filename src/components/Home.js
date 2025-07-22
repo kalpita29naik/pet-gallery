@@ -6,7 +6,7 @@ function Home() {
 
 
  return (
-  <div className="bg-[#EBD6FB] lg:flex lg:flex-row mt-10 p-6 px-20 items-center ">
+  <div className="bg-[#EBD6FB] lg:flex lg:flex-row mt-10 px-6 lg:px-20 items-center ">
    <div>
     <h1 className="font-Delius text-5xl sm:text-5xl md:text-6xl lg:text-8xl">Let's Find Your Furry Friend</h1>
 
