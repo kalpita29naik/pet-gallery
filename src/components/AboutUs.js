@@ -3,11 +3,11 @@ import bg from '../assets/image/petCare1-removebg-preview.png'
 
 const AboutUs = () => {
   return (
-    <div className='font-Delius lg:flex lg:flex-row justify-center items-center lg:p-20 p-10'>
+    <div className='font-Delius lg:flex lg:flex-row  items-center lg:p-20 p-10'>
 
-      <div className='w-1/2 items-center justify-center ali'>
-        <img src={bg} alt='gk' className=' lg:w-96 items-center' />
-      </div>
+      <iv className='lg:w-1/2  justify-center flex '>
+        <img src={bg} alt='gk' className=' lg:w-96 ' />
+      </iv>
 
       <div className='lg:w-1/2 text-justify '>
 
