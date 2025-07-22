@@ -46,7 +46,7 @@
   },
   {
     "id": 4,
-    "name": "Chirpy",
+    "name": "Willow",
     "type": "Cat",
     "Breed": "British Shorthair",
     "image": "/assets/images/BritishShorthair.jpeg",
@@ -92,7 +92,7 @@
 
   {
     "id": 7,
-    "name": "Luna",
+    "name": "Lunasa",
     "type": "Dog",
     "Breed": "German Shepherd",
     "image": "/assets/images/German-Shepard.jpeg",
@@ -168,7 +168,7 @@
   }
   ,{
     "id": 12,
-    "name": "Coco",
+    "name": "Bella",
     "type": "Dog",
     "Breed": "Pug",
     "image": "/assets/images/Pugs.jpeg",

@@ -1,13 +1,12 @@
-import React from 'react'
 import bg from '../assets/image/petCare1-removebg-preview.png'
 
 const AboutUs = () => {
   return (
-    <div className='font-Delius lg:flex lg:flex-row  items-center lg:p-20 p-10'>
+    <div className='font-Delius lg:flex lg:flex-row  items-center lg:p-20 p-10 lg:gap-10'>
 
-      <iv className='lg:w-1/2  justify-center flex '>
+      <div className='lg:w-1/2  justify-center flex '>
         <img src={bg} alt='gk' className=' lg:w-96 ' />
-      </iv>
+      </div>
 
       <div className='lg:w-1/2 text-justify '>
 

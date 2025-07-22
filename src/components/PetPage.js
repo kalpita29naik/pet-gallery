@@ -1,4 +1,4 @@
-import React from 'react'
+
 import data from '../data.json'
 import { useParams } from 'react-router-dom'
 import petCare from '../petCare.json'
@@ -11,6 +11,12 @@ const PetPage = () => {
  const { id } = useParams();
  const pet = data.find(p => String(p.id) === id);
 
+ if (!pet) {
+  return (
+   <div className='text-center text-5xl text-red-600 mt-10 font-Delius'>Pet Not Found <FontAwesomeIcon icon={faPaw} className='mr-3' /></div>
+  )
+ }
+
  return (
 
   <div>
@@ -19,7 +25,8 @@ const PetPage = () => {
 
     <div >
 
-     <p className=" text-xl lg:text-2xl text-gray-700 mt-4 ml-4 leading-relaxed text-justify">
+     <p className="text-xl lg:text-2xl text-gray-700 mt-4 ml-4 leading-relaxed text-left sm:text-justify">
+
       <span className="font-semibold">{pet.name}</span> is a {pet.Age} old <span className="font-semibold">{pet.Breed}</span> {pet.type} from <span className="font-semibold">{pet.Location}</span> who has {pet.adopted === 'Adopted' ? 'already found a loving home' : 'not been adopted yet'}. Known for a unique love of water, {pet.name} enjoys swimming and playing, which is quite rare for {pet.type}. He is very <span className="italic">affectionate</span> and gets along well with other pets. His vaccinations are <span className="font-semibold lowercase">{pet.VaccinationStatus}</span>, ensuring he's healthy and cared for. With a playful nature and warm personality, {pet.name} makes a perfect companion.
      </p>
 
