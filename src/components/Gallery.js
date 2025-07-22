@@ -16,16 +16,6 @@ const Gallery = () => {
 
      <p className='text-gray-500 text-lg mt-2'>{pet.adopted === 'Adopted' || pet.adopted === 'Yes' ? 'Adopted' : 'Available'}</p>
 
-
-     {/* <button
-      type='button'
-      className='bg-[#FFCC00] p-2 rounded-full mt-4'
-      onClick={() => { navigate(`/PetPage/${pet.id}`) }}
-     >
-      Know More
-      <FontAwesomeIcon icon={faPaw} className='ml-2 mr-1' />
-     </button> */}
-
      <Button placeholder="Know More" onClick={`/PetPage/${pet.id}`} />
     </div>
    ))
