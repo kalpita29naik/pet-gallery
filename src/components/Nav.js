@@ -8,7 +8,7 @@ import PetPage from "./PetPage";
 function Nav() {
  return (
   <div>
-   <nav className="flex flex-1 p-2 text-center gap-10 items-center ">
+   <nav className="flex flex-1 text-center gap-10 items-center mt-0">
     <div>
      <Logo />
     </div>

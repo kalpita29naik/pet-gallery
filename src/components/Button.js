@@ -7,7 +7,9 @@ const Button = ({ placeholder, onClick }) => {
 	return (
 		<button
 			type='button'
-			className=' bg-[#FFCC00] p-3 rounded-full mt-10 text-xl font-Delius hover:bg-[#FFB22C] hover:shadow-md'
+			// className=' bg-[#FFCC00] p-1 lg:p-3 rounded-full mt-10 lg:text-xl font-Delius hover:bg-[#FFB22C] hover:shadow-md'
+
+			className="bg-[#FFCC00] p-2 rounded-full mt-5 text-base font-Delius hover:bg-[#FFB22C] hover:shadow-md sm:text-xl sm:p-3"
 			onClick={() => {
 				navigate(onClick)
 			}}

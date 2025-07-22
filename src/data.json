@@ -12,7 +12,7 @@
     "VaccinationStatus": "Up to date",
     "Age": "2 years",
     "isFavorite": false,
-    "careVideo" : "/assets/images/catCare.mp4"
+    "careVideo" : "/assets/images/cat.mp4"
   },
   {
     "id": 2,
@@ -27,7 +27,7 @@
     "VaccinationStatus": "Up to date",
     "Age": "3 years",
     "isFavorite": false,
-    "careVideo" : "/assets/images/dogCare.mp4"
+    "careVideo" : "/assets/images/dog.mp4"
   },
   {
     "id": 3,
@@ -42,7 +42,7 @@
     "VaccinationStatus": "Up to date",
     "Age": "4 years",
     "isFavorite": false,
-     "careVideo" : "/assets/images/dogCare.mp4"
+     "careVideo" : "/assets/images/dog.mp4"
   },
   {
     "id": 4,
@@ -57,7 +57,7 @@
     "VaccinationStatus": "Up to date",
     "Age": "5 years",
     "isFavorite": false,
-     "careVideo" : "/assets/images/catCare.mp4"
+     "careVideo" : "/assets/images/cat.mp4"
   },
   {
     "id": 5,
@@ -72,7 +72,7 @@
     "VaccinationStatus": "Up to date",
     "Age": "6 years",
     "isFavorite": true,
-     "careVideo" : "/assets/images/dogCare.mp4"
+     "careVideo" : "/assets/images/dog.mp4"
   },
   {
     "id": 6,
@@ -87,7 +87,7 @@
     "VaccinationStatus": "Up to date",
     "Age": "1 year",
     "isFavorite": false,
-     "careVideo" : "/assets/images/dogCare.mp4"
+     "careVideo" : "/assets/images/dog.mp4"
   },
 
   {
@@ -103,7 +103,7 @@
     "VaccinationStatus": "Up to date",
     "Age": "3 years",
     "isFavorite": false,
-     "careVideo" : "/assets/images/dogCare.mp4"
+     "careVideo" : "/assets/images/dog.mp4"
   }
   ,{
     "id": 8,
@@ -118,7 +118,7 @@
     "VaccinationStatus": "Up to date",
     "Age": "2 years",
     "isFavorite": false,
-     "careVideo" : "/assets/images/dogCare.mp4"
+     "careVideo" : "/assets/images/dog.mp4"
 
   },
   {
@@ -134,7 +134,7 @@
     "VaccinationStatus": "Up to date",  
     "Age": "4 years",
     "isFavorite": false,
-     "careVideo" : "/assets/images/dogCare.mp4"
+     "careVideo" : "/assets/images/dog.mp4"
   },
   {
     "id": 10,
@@ -149,7 +149,7 @@
     "VaccinationStatus": "Up to date",
     "Age": "1 year",
     "isFavorite": false,
-     "careVideo" : "/assets/images/dogCare.mp4"
+     "careVideo" : "/assets/images/dog.mp4"
   }
   ,{
     "id": 11,
@@ -164,7 +164,7 @@
     "VaccinationStatus": "Up to date",
     "Age": "2 years",
     "isFavorite": false,
-     "careVideo" : "/assets/images/dogCare.mp4"
+     "careVideo" : "/assets/images/dog.mp4"
   }
   ,{
     "id": 12,
@@ -179,7 +179,7 @@
     "VaccinationStatus": "Up to date",
     "Age": "3 years",
     "isFavorite": false,
-     "careVideo" : "/assets/images/dogCare.mp4"
+     "careVideo" : "/assets/images/dog.mp4"
 
   },
   {
@@ -195,7 +195,7 @@
     "VaccinationStatus": "Up to date",
     "Age": "5 years",
     "isFavorite": false,
-     "careVideo" : "/assets/images/dogCare.mp4"
+     "careVideo" : "/assets/images/dog.mp4"
   },
   {
     "id": 14,
@@ -210,7 +210,7 @@
     "VaccinationStatus": "Up to date",
     "Age": "2 years",
     "isFavorite": false,
-     "careVideo" : "/assets/images/dogCare.mp4"
+     "careVideo" : "/assets/images/dog.mp4"
   },
   {
     "id": 15,
@@ -225,7 +225,7 @@
     "VaccinationStatus": "Up to date",
     "Age": "3 years",
     "isFavorite": false,
-     "careVideo" : "/assets/images/dogCare.mp4"
+     "careVideo" : "/assets/images/dog.mp4"
   }
   ,{
     "id": 16,
@@ -240,7 +240,7 @@
     "VaccinationStatus": "Up to date",
     "Age": "2 years",
     "isFavorite": false,
-     "careVideo" : "/assets/images/catCare.mp4"
+     "careVideo" : "/assets/images/cat.mp4"
   }
   ,{
     "id": 17,
@@ -255,7 +255,7 @@
     "VaccinationStatus": "Up to date",
     "Age": "1 year",
     "isFavorite": false,
-     "careVideo" : "/assets/images/catCare.mp4"
+     "careVideo" : "/assets/images/cat.mp4"
   }
   ,{
     "id": 18,
@@ -270,7 +270,7 @@
     "VaccinationStatus": "Up to date",
     "Age": "3 years",
     "isFavorite": false,
-     "careVideo" : "/assets/images/catCare.mp4"
+     "careVideo" : "/assets/images/cat.mp4"
 
   }
 ]

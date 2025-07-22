@@ -1,20 +1,16 @@
 import data from '../data.json'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPaw } from '@fortawesome/free-solid-svg-icons';
-import { useNavigate } from 'react-router-dom';
 import Button from './Button';
 
 
 const Gallery = () => {
- const navigate = useNavigate();
 
  return (
-  <div className=' m-4  grid grid-cols-4 gap-6 '>
+  <div className=' m-4 grid grid-cols-1 sm:grid-cols-2 md:col-grid-3 lg:grid-cols-4 gap-6 '>
 
    {data.map((pet) => (
     <div className='border border-yellow-600 p-4 rounded-2xl font-Delius hover:shadow-xl' key={pet.id}>
 
-     <img src={pet.image} alt={pet.Breed} className='h-60 w-full object-cover rounded-md' />
+     <img src={pet.image} alt={pet.Breed} className='h-96 sm:h-[200px] lg:h-60 w-full object-cover rounded-md' />
      <h1 className='font-bold text-3xl mt-3'>{pet.name}</h1>
      <p className='text-gray-500 text-xl mt-2'>{pet.Breed}</p>
 
